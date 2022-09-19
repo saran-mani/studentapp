@@ -1,0 +1,34 @@
+* {
+  font-family: "Sora", sans-serif;
+}
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #eae8ff;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+ul,
+li {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+ul {
+  max-width: 50%;
+  flex: 1;
+  display: flex;
+  justify-content: space-evenly;
+}
+.Navbar {
+  padding: 20px;
+}
+.Navbar a,
+li {
+  text-decoration: none;
+  color: #8447ff;
+}
